@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.a {
+    display: block;
+    background-color: greenyellow;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 70%;
+    align-items: center;
+    margin-left: 10%;
+    padding-left: 40px;
+}
+
+.b {
+    font-size: 100px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#b {
+    color: black;
+}
+
+p {
+    font-size: 30px;
+}
+
+.c {
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+}
+
+.d {
+    color: darkslategrey;
+    padding: 2px;
+}
+
+#c {
+    text-decoration: none;
+    font-size: 22px;
+    color: darkslategrey;
+    font-weight: bold;
+}
+
+#c:hover {
+    color: brown;
+}
+
+img {
+    height: 25px;
+    width: auto;
+}
+
+b {
+    color: darkslategrey;
+}
+
+.box {
+    display: block;
+    background-color: #98ff98;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 70%;
+    align-items: center;
+    margin-left: 10%;
+    padding-left: 40px;
+}
+
+.e {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+#e {
+    color: red;
+}
+
+.f {
+    background-color: brown;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 6px;
+    height: auto;
+}
+
+.g {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+}
+
+#g {
+    font-size: 20px;
+}
+
+.h {
+    width: 25%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.i {
+    color: green;
+    font-size: 30px;
+}
+
+.j {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.k {
+    font-size: 25px;
+}
+
+.p {
+    background-color: #f6fafd;
+    width: 100%;
+}
+
+.q {
+    background-color: #98ff98;
+    width: 100%;
+}
+
+.l {
+    background-color: red;
+    color: white;
+    width: 100%;
+    font-size: 25px;
+}
+
+.m {
+    font-size: 35px;
+    color: white;
+}
+
+.n {
+    font-size: 25px;
+    color: white;
+    padding-left: 8px;
+}
+
+.r {
+    background-color: rgb(7, 140, 218);
+    width: 100%;
+}
+
+.s {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+.t {
+    color: green;
+    background-color: #f6fafd;
+    width: 100%;
+}
+
+.u {
+    color: white;
+    background-color: green;
+}
+
+.v {
+    color: red;
+    font-size: 30px;
+}
+
+.w {
+    color: red;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.x {
+    background-color: rgb(0, 61, 97);
+    width: 100%;
+}
+
+.z {
+    margin-top: 20px;
+    width: 120px;
+    height: 120px;
+}
+
+.ab {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50%;
+}
+
+#ab {
+    font-size: 25px;
+    border-radius: 8px;
+    color: white;
+    background-color: green;
+    padding: 20px;
+}
+
+.bc {
+    color: black;
+    background-color: #f6fafd;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 22%;
+    border-radius: 10px;
+}
+
+/* Responsive styles for various screen sizes */
+@media screen and (max-width: 768px) {
+
+    .a,
+    .box {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+    }
+
+    .b {
+        font-size: 60px;
+    }
+
+    .c,
+    .i,
+    .j {
+        font-size: 25px;
+    }
+
+    .k,
+    .n,
+    #g {
+        font-size: 18px;
+    }
+
+    .f {
+        height: auto;
+        font-size: 18px;
+        padding: 6px 10px;
+    }
+
+    .e {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .g {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .h {
+        width: 100%;
+    }
+
+    .z {
+        width: 100px;
+        height: 100px;
+        max-width: 100%;
+    }
+
+    img {
+        max-width: 25px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .a,
+    .box {
+        width: 90%;
+    }
+
+    .b {
+        font-size: 80px;
+    }
+
+    .c {
+        font-size: 35px;
+    }
+
+    .k {
+        font-size: 22px;
+    }
+
+    .h {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .b {
+        font-size: 50px;
+    }
+
+    .c,
+    .i,
+    .j {
+        font-size: 20px;
+    }
+
+    .k,
+    .n,
+    #g {
+        font-size: 16px;
+    }
+
+    .h {
+        width: 100%;
+    }
+
+    .bc {
+        width: 100%;
+        font-size: 18px;
+    }
+}
